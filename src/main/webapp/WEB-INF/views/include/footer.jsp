@@ -10,9 +10,9 @@
 					<small>&copy; ASD PROJECT by TEAM 403-1. <br>
 						 Published by: 
 						<a href="https://github.com/myeong-han" target="_blank">M.H.KIM</a> | 
-						<a href="https://github.com/justpanic" target="_blank">S.Y.KIM</a> | 
-						<a href="https://github.com/JJOOYYONG" target="_blank">J.Y.LIM</a> | 
-						<a href="https://github.com/HyeongSik-Yoon" target="_blank">H.S.YOON</a> | 
+						<a href="https://github.com/justpanic/asd3" target="_blank">S.Y.KIM</a> | 
+						<a href="https://github.com/JJOOYYONG/asd3" target="_blank">J.Y.LIM</a> | 
+						<a href="https://github.com/HyeongSik-Yoon/asd3" target="_blank">H.S.YOON</a> | 
 						<a href="https://github.com/kkh4486" target="_blank">H.S.KIM</a> | 
 						<a href="https://github.com/godrlarlxo" target="_blank">G.T.KIM</a> 															
 					</small>
