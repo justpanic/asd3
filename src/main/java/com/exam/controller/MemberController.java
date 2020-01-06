@@ -438,6 +438,7 @@ public class MemberController {
 	
 	@GetMapping("updateMember")
 	public String updateMember(String email,Model model) {
+			
 		MemberVO memberVO = memberService.getMemberByEmail(email);
 		model.addAttribute("members",memberVO);
 
@@ -447,7 +448,12 @@ public class MemberController {
 	@PostMapping("updateMember")
 	public ResponseEntity<String> updateMember(String email, MemberVO memberVO) {
 
-
+		MemberVO vo = memberService.getMemberByEmail(email);
+		
+		if(memberVO.getLocal()==null) {
+			memberVO.setLocal(vo.getLocal());
+		}
+		
 		memberService.updateMember(memberVO);
 
 		HttpHeaders headers = new HttpHeaders();
